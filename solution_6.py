@@ -12,8 +12,8 @@ def get_min_max_by_sorting(ints):
        ints(list): list of integers containing one or more integers
     """
     n = len(ints)
-    smallest = 9999999
-    largest = -1
+    smallest = float("+inf")
+    largest = float("-inf")
     if n<1:
         return 
     

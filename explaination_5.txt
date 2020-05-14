@@ -7,8 +7,8 @@ Created on Wed May 13 23:53:45 2020
 
 TrieNode:
 
-Insert a character: Time complexity - O(1)
-uffixes of a node: Time complexity: O(m^n) 
+Insert a character: Time complexity - O(1) ; space complexity : O(1) 
+uffixes of a node: Time complexity: O(m^n) ; space complexity : O(m^n)
 where m is maximum number of elements one level can have & n is the number of levels.
 
 Trie:

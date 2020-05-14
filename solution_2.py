@@ -6,6 +6,8 @@ Created on Wed May 13 14:43:40 2020
 """
 def get_pivot(input_list,number):
     l = len(input_list)
+    if l==0:
+        return 
     low = 0
     high = l
     while low <= high:
@@ -29,6 +31,8 @@ def rotated_array_search(input_list, number):
     """
     l = len(input_list)
     pivot = get_pivot(input_list, number)
+    if pivot is None:
+        return -1
     if input_list[pivot] <= number and input_list[l-1] >= number:
         low = pivot
         high = l
@@ -65,3 +69,6 @@ test_function([[6, 7, 8, 9, 10, 1, 2, 3, 4], 1])
 test_function([[6, 7, 8, 1, 2, 3, 4], 8])
 test_function([[6, 7, 8, 1, 2, 3, 4], 1])
 test_function([[6, 7, 8, 1, 2, 3, 4], 10])
+#edge cases
+test_function([[2,1], 0])  #element not present
+test_function([[], 0])  #list is empty

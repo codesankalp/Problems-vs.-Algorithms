@@ -7,3 +7,4 @@ Created on Wed May 13 23:47:18 2020
 
 In this i simply used the idea of binary search and implemented it.
 time complexity :- O(logn)
+space complexity : O(1)

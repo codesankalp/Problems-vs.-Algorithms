@@ -8,3 +8,4 @@ Created on Wed May 13 23:55:27 2020
 used linear search for this problem.
 
 Time Complexity: O(n)
+Space Complexity: O(1)
