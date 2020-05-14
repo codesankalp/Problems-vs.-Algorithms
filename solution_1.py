@@ -20,7 +20,9 @@ def sqrt(number):
     end = number
     while start <= end:
         mid = (start + end) // 2
-        if (mid**2 == number) or (mid**2 <= number and (mid+1)**2 > number):
+        if (mid**2 == number):
+            return mid
+        elif (mid**2 <= number and (mid+1)**2 > number):
             return mid
         elif (mid**2 > number):
             end = mid

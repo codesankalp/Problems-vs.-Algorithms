@@ -17,6 +17,7 @@ def sort_012(input_list):
     input_list = []
     for i in range(3):
         input_list.extend([i]*freq[i])
+        print(input_list)
     return input_list
 
 def test_function(test_case):

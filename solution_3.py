@@ -20,7 +20,6 @@ def rearrange_digits(input_list):
     input_freq = [0] * 10
     for num in input_list:
         input_freq[num] += 1
-
     a1 = []
     a2 = []
     first = 1

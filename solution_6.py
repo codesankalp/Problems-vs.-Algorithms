@@ -11,16 +11,18 @@ def get_min_max_by_sorting(ints):
     Args:
        ints(list): list of integers containing one or more integers
     """
-    if not ints:
-        return
-    #       maximum         minimum
-    ans = [-float('inf'), float('inf')]
-    for num in ints:
-        if num > ans[0]:
-            ans[0] = num
-        if num < ans[1]:
-            ans[1] = num
-    return (ans[1], ans[0])
+    n = len(ints)
+    smallest = 9999999
+    largest = -1
+    if n<1:
+        return 
+    
+    for i in ints:
+        if i<smallest:
+            smallest = i
+        if i>largest:
+            largest = i  
+    return (smallest, largest)
 
 ## Example Test Case of Ten Integers
 import random
