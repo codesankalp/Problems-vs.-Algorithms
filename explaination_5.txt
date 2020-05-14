@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 13 23:53:45 2020
+
+@author: sankalp
+"""
+
+TrieNode:
+
+Insert a character: Time complexity - O(1)
+uffixes of a node: Time complexity: O(m^n) 
+where m is maximum number of elements one level can have & n is the number of levels.
+
+Trie:
+
+Insert a word: Time complexity: O(n) Space complexity: O(n)
+
+Find a prefix: Time complexity: O(n) Space complexity: O(1)

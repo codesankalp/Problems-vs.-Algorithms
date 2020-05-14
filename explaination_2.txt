@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 13 23:48:41 2020
+
+@author: sankalp
+"""
+
+first i find the pivot point and used it to get the index of the target element.
+and used idea of binary search to pass the problem.
+time complexity : O(logn)
